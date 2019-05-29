@@ -5,35 +5,42 @@
         <title>Franklin, Idaho Weather Website</title>
         <meta name="description" content="Short Description of Page">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/weather_web/css/screen.css" media="screen">
     </head>
     <body>
-        <img src="plan-images/plan-images/plan-images/logo.jpeg" alt="umbrella-logo">
-        <h1><strong>The Weather Site</strong></h1>
-        <h2>Franklin, Idaho</h2>
-        <p>
-            <strong>Zip: </strong>83237 | <strong>Elevation: </strong>1514.246 m |
-             <strong>Location: </strong>42.07, 111.79
-        </p>
-        <div>
-            <img src="plan-images/plan-images/plan-images/weather-tile.png" alt="Weather Title">
-        </div>
-        <div>
+        <header>
+            <img src="plan-images/plan-images/plan-images/logo.jpeg" alt="umbrella-logo">
+            <h1><strong>The Weather Site</strong></h1>
+        </header>
+        <nav>
+            <h2>Franklin, Idaho</h2>
             <p>
-                <strong>Wind</strong>
+                <strong>Zip: </strong>83237 | <strong>Elevation: </strong>1514.246 m |
+                <strong>Location: </strong>42.07, 111.79
             </p>
-            <img src="weather-site-images/weather-site-images/images/wind-pointer.png" alt="Weather Pointer">
-            <p>2 mph</p>
-            <p><strong>Direction: </strong>NW</p>
-            <p><strong>Gusts: </strong>5mph</p>
-        </div>
-        <div>
-            <p><strong>Clear</strong></p>
-            <img src="weather-site-images/weather-site-images/images/clear.jpg" alt="Clear image">
-        </div>
-        <div>
-            <p><strong>Hourly Forcast</strong></p>
-            <p>10 am: 30 F | 11 am: 34 F | 12 pm: 35 F | 1 pm: 37 F</p>
-        </div>
+        </nav>
+        <main>
+            <section id="section-1">
+                <img src="plan-images/plan-images/plan-images/weather-tile.png" alt="Weather Title">
+            </section>
+            <section id="section-2">
+                <p>
+                    <strong>Wind</strong>
+                </p>
+                <img src="weather-site-images/weather-site-images/images/wind-pointer.png" alt="Weather Pointer">
+                <p>2 mph</p>
+                <p><strong>Direction: </strong>NW</p>
+                <p><strong>Gusts: </strong>5mph</p>
+            </section>
+            <section id="section-3">
+                <p><strong>Clear</strong></p>
+                <img src="weather-site-images/weather-site-images/images/clear.jpg" alt="Clear image">
+            </section>
+            <section id="section-4">
+                <p><strong>Hourly Forcast</strong></p>
+                <p>10 am: 30 F | 11 am: 34 F | 12 pm: 35 F | 1 pm: 37 F</p>
+            </section>
+        </main>
         <footer>
         <p>&copy; 2019 - The Weather Site</p>
         </footer>

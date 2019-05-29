@@ -17,5 +17,18 @@ h1,h2,h3,h4,h5,h6{
     font-family: Sansita, sans-serif;
 }
 #weather-picture{
-    width=50%;
+    width: 100%;
+}
+#temperature{
+    width: 100%;
+}
+#main-title{
+    background-color: #0e89d5;
+}
+#logo{
+    float: left;
+    width: 50px;
+}
+#location-info{
+    font-size: 110%;
 }

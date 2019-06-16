@@ -1,5 +1,6 @@
+/* Table of Contents*/
 /* 1. Imports
-2. General
+2. General Styles
 3. Mobile
 4. Large(er) Screens*/
 /* 1. Imports */
@@ -8,14 +9,43 @@
 
 @import url('normalize.css'); 
 
-/* 2. General */
+/* 2. General Styles*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
 body{
     font-size: 20px; 
-    font-family: helvetica, sans-serif;
+    font-family: helvetica, verdana, sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: Sansita, sans-serif;
+    font-family: Sansita, Eurostyle, sans-serif;
 }
+.tile{
+    background-color: rgba(200,200,200,.6);
+    margin: .2em auto;
+    border: 1px solid;
+    border-radius: 15px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer{
+    margin-bottom: 2em;
+}
+
+
+
+
+
 #weather-picture{
     width: 100%;
 }
@@ -27,7 +57,9 @@ h1,h2,h3,h4,h5,h6{
 }
 #logo{
     float: left;
-    width: 50px;
+    width: 48px;
+    /* padding: 20px 20px 20px 20px;*/
+    margin: 2px 2px 0px 2px; 
 }
 #location-info{
     font-size: 110%;

@@ -77,3 +77,16 @@ function windDial(direction){
 
 windDial(direction);
 
+// Convert meters function
+function convertMeters(elevationInMeters) {
+
+    // Convert value to feet
+    let elevationInFeet = elevationInMeters * 3.28084;
+    
+    // Round value to the nearest integer
+    let roundedNumber = Math.round(elevationInFeet);
+
+    // Return the new value
+    return roundedNumber;
+}
+

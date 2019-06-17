@@ -90,3 +90,12 @@ function convertMeters(elevationInMeters) {
     return roundedNumber;
 }
 
+// Call the function and set the variable
+const elevationInFeet = convertMeters(elevationInMeters);
+
+// Check to make sure the value is correct
+console.log(`converted elevation from ${elevationInMeters} to ${elevationInFeet}.`);
+
+// Inject value into the HTML
+document.getElementById("elevation").innerHTML = elevationInFeet;
+

@@ -2,7 +2,7 @@
 // Variables for Function Use
 const temp = 31;
 const speed = 5;
-const direction = "E"; 
+const direction = "NE"; 
 
 // Calculate the Wind Chill
 function buildWC(speed, temp) {

@@ -64,3 +64,10 @@ footer{
 #location-info{
     font-size: 110%;
 }
+#dial {
+    height: 150px;
+    width: 150px;
+    background: no-repeat center/85% url('/Weather_web/weather-site-images/weather-site-images/images/wind-pointer.png');
+    z-index: 100;
+    margin: -.6em auto 0;
+}

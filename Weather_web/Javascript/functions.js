@@ -22,7 +22,7 @@ function buildWC(speed, temp) {
 
     // Display the windchill
     console.log(wc);
-    wc = "Feels like" + wc + "&deg;F";
+    wc = "Feels like " + wc + "&deg;F";
     feelTemp.innerHTML = wc;
 }
 

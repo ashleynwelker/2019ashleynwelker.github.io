@@ -1,8 +1,9 @@
 // Weather Site Javascript Functions
-// Variables for Function Use
+// Variables for Function Usea
 const temp = 31;
 const speed = 5;
-const direction = "NE"; 
+const direction = "SW";
+const elevationInMeters = 1514.246; 
 
 // Calculate the Wind Chill
 function buildWC(speed, temp) {
@@ -38,40 +39,40 @@ function windDial(direction){
     switch (direction){
         case "North":
         case "N": 
-        dial.setAttribute("class", "n");
-        break;
+         dial.setAttribute("class", "n");
+         break;
         case "NE":
         case "NNE":
         case "ENE":
-        dial.setAttribute("class", "ne");
-        break;
+         dial.setAttribute("class", "ne");
+         break;
         case "NW":
         case "NNW":
         case "WNW":
-        dial.setAttribute("class", "nw");
-        break;
+         dial.setAttribute("class", "nw");
+         break;
         case "South":
         case "S":
-        dial.setAttribute("class", "s");
-        break;;
+         dial.setAttribute("class", "s");
+         break;;
         case "SE":
         case "SSE":
         case "ESE":
-        dial.setAttribute("class", "se");
-        break;
+         dial.setAttribute("class", "se");
+         break;
         case "SW":
         case "SSW":
         case "WSW":
-        dial.setAttribute("class", "sw");
-        break;
+         dial.setAttribute("class", "sw");
+         break;
         case "East":
         case "E":
-        dial.setAttribute("class", "e");
-        break;
+         dial.setAttribute("class", "e");
+         break;
         case "West":
         case "W":
-        dial.setAttribute("class", "w");
-        break;
+         dial.setAttribute("class", "w");
+         break;
     }
 }
 
@@ -97,5 +98,5 @@ const elevationInFeet = convertMeters(elevationInMeters);
 console.log(`converted elevation from ${elevationInMeters} to ${elevationInFeet}.`);
 
 // Inject value into the HTML
-document.getElementById("elevation").innerHTML = elevationInFeet;
+document.getElementById("elevation").innerHTML = elevationInFeet + " ft. |";
 

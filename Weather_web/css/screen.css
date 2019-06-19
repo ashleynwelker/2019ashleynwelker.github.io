@@ -72,27 +72,29 @@ footer{
     margin: -.6em auto 0;
 }
 
-.e {
-    transform: rotate(90deg);
-}
-.w {
-    transform: rotate(270deg);
-}
-.s {
-    transform: rotate(180deg);
-}
-.n {
+.n, .north {
     transform: rotate(0deg);
 }
 .ne {
     transform: rotate(45deg);
 }
-.nw {
-    transform: rotate(315deg);
+.e, .east {
+    transform: rotate(90deg);
 }
 .se {
     transform: rotate(135deg);
 }
+.s, .south {
+    transform: rotate(180deg);
+}
 .sw {
     transform: rotate(225deg);
 }
+.w, .west {
+    transform: rotate(270deg);
+}
+.nw {
+    transform: rotate(315deg);
+}
+
+

@@ -1,14 +1,14 @@
 // Weather Site Javascript Functions
-// Variables for Function Usea
-const temp = 31;
-const speed = 5;
-const direction = "SW";
-const elevationInMeters = 1514.246; 
+// Variables for Function Used
+let temp = 31;
+let speed = 5;
+let direction = "SW";
+let elevationInMeters = 1514.246; 
 
 // Calculate the Wind Chill
 function buildWC(speed, temp) {
 
-    const feelTemp = document.getElementById('feelTemp');
+    let feelTemp = document.getElementById('feelTemp');
 
     // Compute the Windchill
     let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
@@ -32,7 +32,7 @@ buildWC(speed,temp);
 function windDial(direction){
 
     // Get the wind dial container
-    const dial = document.getElementById("dial");
+    let dial = document.getElementById("dial");
     console.log(direction);
 
     // Determine the dial class
@@ -92,7 +92,7 @@ function convertMeters(elevationInMeters) {
 }
 
 // Call the function and set the variable
-const elevationInFeet = convertMeters(elevationInMeters);
+let elevationInFeet = convertMeters(elevationInMeters);
 
 // Check to make sure the value is correct
 console.log(`converted elevation from ${elevationInMeters} to ${elevationInFeet}.`);

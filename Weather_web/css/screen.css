@@ -2,7 +2,8 @@
 /* 1. Imports
 2. General Styles
 3. Mobile
-4. Large(er) Screens*/
+4. Large(r) Screens*/
+
 /* 1. Imports */
 
 @import url('https://fonts.googleapis.com/css?family=Sansita&display=swap');
@@ -41,6 +42,19 @@ nav {
 footer{
     margin-bottom: 2em;
 }
+#logo{
+    float: left;
+    width: 50px;
+    /* padding: 20px 20px 20px 20px;*/
+    /* margin: 2px 2px 0px 2px; */
+}
+#page-header {
+    height: 40px;
+}
+
+/* Mobile */
+
+/* Large(r) Screens */
 
 
 
@@ -54,13 +68,9 @@ footer{
 }
 #main-title{
     background-color: #0e89d5;
+    height: 40px;
 }
-#logo{
-    float: left;
-    width: 48px;
-    /* padding: 20px 20px 20px 20px;*/
-    margin: 2px 2px 0px 2px; 
-}
+
 #location-info{
     font-size: 110%;
 }
@@ -96,5 +106,3 @@ footer{
 .nw {
     transform: rotate(315deg);
 }
-
-

@@ -9,38 +9,37 @@
     </head>
     <body>
         <header id="page-header">
-            <div id="logo"> 
-                <img src="plan-images/plan-images/plan-images/logo.jpeg" alt="umbrella-logo">
-            </div>
+            <img id="logo" src="plan-images/plan-images/plan-images/logo.jpeg" alt="umbrella-logo">
             <p id="main-title">The Weather Site</p>
         </header>
         <!--<nav>
-            <h2>Franklin, Idaho</h2>
-                <div>
-                    <strong class="location-info">Zip: </strong>83237 | 
-                    <strong class="location-info">Elevation: </strong><span id="elevation">1514.246 m |</span>
-                    <strong class="location-info">Location: </strong>42.07, 111.79
-                </div>
+            <h2>Franklin, Idaho</h2>                
         </nav>-->
         <main>
             <section id="section-1">
                 <h1 id="localName">Franklin, Idaho</h1>
-                <div id="localInfo">                    
-                    <dl></dl>
-                    <dl></dl>
-                    <dl></dl>
+                <div id="localInfo">
+                    <ul>
+                            <li><strong class="location-info">Zip: </strong>83237 | </li> 
+                            <li><strong class="location-info">Elevation: </strong><span id="elevation">1514.246 </span>m | </li>
+                            <li><strong class="location-info">Location: </strong>42.07, 111.79</li>
+                    </ul>
                 </div>
             </section>
             <div id="currentWeather">
                 <section id="temperature" class="tile">
-                    <dl id="feelTemp">Feels like: </dl>
+                    <p id="currentTemperature"><span id="curTemp">24</span> &deg;F</p>
+                    <p id="highTemperature">High: </p>
+                    <p id="lowTemperature">Low: </p>
+                    <p id="feelTemp">Feels like: </p>
                 </section>
                 <section id="wind" class="tile">
                         <p>
                                 <strong>Wind</strong>
                             </p>
-                            <div id="dial" class="wind"></div>
-                            <p>2 mph</p>
+                            <div id="dial" class="wind">
+                                <p>2 mph</p>
+                            </div>
                             <p><strong>Direction: </strong>SW</p>
                             <p><strong>Gusts: </strong>5mph</p>
                 </section>

@@ -17,14 +17,17 @@ html {
 *, *:before, *:after{
     box-sizing: inherit;
 }
-body{
+body {
     font-size: 20px; 
     font-family: helvetica, verdana, sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6 {
     font-family: Sansita, Eurostyle, sans-serif;
 }
-.tile{
+#localName {
+    padding-left: 10px;
+}
+.tile {
     background-color: rgba(200,200,200,.6);
     margin: .2em auto;
     border: 1px solid;
@@ -39,20 +42,42 @@ nav {
     bottom: 0;
     left: 0;
 }
-footer{
+footer {
     margin-bottom: 2em;
 }
-#logo{
+#logo {
     float: left;
     width: 50px;
+    height: 100%;
+    display: inline;
+    vertical-align: middle;
     /* padding: 20px 20px 20px 20px;*/
     /* margin: 2px 2px 0px 2px; */
 }
 #page-header {
-    height: 40px;
+    /*height: 40px;*/
+    width: 100%;
+    display: inline-block;
+    background-color: #0e89d5;
+    text-align: center;
+}
+
+#localInfo ul {
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+} 
+
+li {
+    list-style-type: none;
+    margin: 3px;
 }
 
 /* Mobile */
+
+@media only screen and (max-width: 600px) {
+
+}
 
 /* Large(r) Screens */
 
@@ -60,18 +85,25 @@ footer{
 
 
 
-#weather-picture{
+#weather-picture {
     width: 100%;
 }
-#temperature{
+#temperature {
     width: 100%;
 }
-#main-title{
-    background-color: #0e89d5;
-    height: 40px;
+#main-title {
+    /*background-color: #0e89d5;*/
+    /*height: 40px;*/
+    height: 100%;
+    width: 100%;
+    display: inline;
+    vertical-align: middle;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
 }
 
-#location-info{
+#location-info {
     font-size: 110%;
 }
 #dial {

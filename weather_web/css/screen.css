@@ -47,8 +47,8 @@ footer {
 
 #logo {
     float: left;
-    
-    /* display: inline; */
+    width: 50px;
+    height: 100%;
     vertical-align: middle;
 }
 #page-header {

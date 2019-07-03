@@ -1,8 +1,10 @@
 /* Table of Contents*/
-/* 1. Imports
+/* 
+1. Imports
 2. General Styles
 3. Mobile
-4. Large(r) Screens*/
+4. Large(r) Screens 
+*/
 
 /* 1. Imports */
 
@@ -37,25 +39,20 @@ nav ul li {
     display: inline-block;
     list-style: none;
 }
-nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
+
 footer {
     margin-bottom: 2em;
+    padding: 5px;
 }
+
 #logo {
     float: left;
     width: 50px;
     height: 100%;
     display: inline;
     vertical-align: middle;
-    /* padding: 20px 20px 20px 20px;*/
-    /* margin: 2px 2px 0px 2px; */
 }
 #page-header {
-    /*height: 40px;*/
     width: 100%;
     display: inline-block;
     background-color: #0e89d5;
@@ -66,6 +63,7 @@ footer {
     display: flex;
     list-style: none;
     padding-left: 10px;
+    font-size: 13px;
 } 
 
 li {
@@ -73,17 +71,52 @@ li {
     margin: 3px;
 }
 
-/* Mobile */
-
-@media only screen and (max-width: 600px) {
-
+#direction {
+    text-align: center;
 }
 
-/* Large(r) Screens */
+#gust {
+    text-align: center;
+}
 
+#footer {
+    background-color: #0e89d5; 
+}
 
+#highnlow {
+    display: flex;
+    justify-content: center;
+}
 
+#templist {
+    overflow: auto;
+    white-space: nowrap;
+}
 
+#highTemperature {
+    text-align: center;
+    color: red;
+    margin: 4px;
+}
+
+#lowTemperature {
+    text-align: center;
+    color: blue;
+    margin: 4px;
+}
+
+.title {
+    text-align: center;
+}
+
+#currentTemperature {
+    font-size: 80px;
+    text-align: center;
+}
+
+#feelTemp {
+    text-align: center;
+}
 
 #weather-picture {
     width: 100%;
@@ -137,4 +170,25 @@ li {
 }
 .nw {
     transform: rotate(315deg);
+}
+
+/* Mobile */
+
+#windSpeed {
+    margin-top: -80px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#navBar {
+    position: fixed;
+    bottom: 0;
+    background-color: #0e89d5;
+    width: 100%; 
+}
+
+/* Large(r) Screens */
+
+@media screen and (min-width: 400px) {
+
 }

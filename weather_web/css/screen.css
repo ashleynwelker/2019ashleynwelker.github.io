@@ -124,10 +124,6 @@ li {
     width: 100%;
 }
 #main-title {
-    /*background-color: #0e89d5;*/
-    /*height: 40px;*/
-    height: 100%;
-    width: 100%;
     display: inline;
     vertical-align: middle;
     font-size: 36px;
@@ -183,11 +179,16 @@ li {
     position: fixed;
     bottom: 0;
     background-color: #0e89d5;
-    width: 100%; 
+    width: 100%;
+    z-index: 101; 
 }
 
 /* Large(r) Screens */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 450px) {
+
+#currentWeather {
+    display: flex;
+}
 
 }

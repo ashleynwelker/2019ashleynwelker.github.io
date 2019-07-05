@@ -26,7 +26,11 @@
 			<h1 class="main-title">Grand Canyon National Park</h1>
 
 			<figure class="featured-image">
-				<img src="images/ruins-400.jpg" srcset="images/cactus-1000.jpg" alt="Picture from the Grand Canyon">
+				<!-- <img src="images/ruins-400.jpg" srcset="images/cactus-1000.jpg 50w" alt="Picture from the Grand Canyon"> -->
+				<picture>
+					<source media="(min-width: 41.67em)" srcset="images/cactus-1000.jpg">
+					<img src="images/ruins-400.jpg" alt="Ruins in the Grand Canyon">
+				</picture>
 
 				<figcaption class="image-caption">
 					Fun in the Grand Canyon
@@ -57,9 +61,9 @@
 
 			<p>
 				Mandaremus minim o expetendis consectetur. Aliqua exercitation mandaremus amet arbitror.
-				Proident ne quis voluptate. Litteris nulla eram voluptate anim a amet commodo relinqueret.
-				Ne dolor consectetur in ingeniis sed laborum. Summis exercitation aliquip legam quamquam, 
-				laboris cillum labore o dolore. Varias ubi probant ab labore.
+				 Proident ne quis voluptate. Litteris nulla eram voluptate anim a amet commodo relinqueret.
+				 Ne dolor consectetur in ingeniis sed laborum. Summis exercitation aliquip legam quamquam, 
+				 laboris cillum labore o dolore. Varias ubi probant ab labore.
 			</p>
 
 		</main>

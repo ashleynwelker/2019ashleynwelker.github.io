@@ -3,7 +3,7 @@
 let temp = 31;
 let speed = 5;
 let direction = "SW";
-let elevationInMeters = 1514.246; 
+let elevationInMeters = 1514.246;
 
 // Calculate the Wind Chill
 function buildWC(speed, temp) {

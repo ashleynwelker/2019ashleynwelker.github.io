@@ -167,6 +167,10 @@ li {
     transform: rotate(315deg);
 }
 
+#currentWeather {
+    background-size: cover;
+}
+
 /* Mobile */
 
 #windSpeed {
@@ -183,12 +187,45 @@ li {
     z-index: 101; 
 }
 
+/* Background pictures for summary */
+.clear {
+    background-image: url("/weather_web/optimizedImages/clear-400.jpg");
+}
+.clouds {
+    background-image: url("/weather_web/optimizedImages/clouds-400.jpg");
+}
+.fog {
+    background-image: url("/weather_web/optimizedImages/fog-400.jpg");
+}
+.rain {
+    background-image: url("/weather_web/optimizedImages/rain-400.jpg");
+}
+.snow {
+    background-image: url("/weather_web/optimizedImages/snow-450.jpg");
+}
+
 /* Large(r) Screens */
 
 @media screen and (min-width: 450px) {
 
 #currentWeather {
     display: flex;
+}
+
+.clear {
+    background-image: url("/weather_web/optimizedImages/clear-1200.jpg");
+}
+.clouds {
+    background-image: url("/weather_web/optimizedImages/clouds-1200.jpg");
+}
+.fog {
+    background-image: url("/weather_web/optimizedImages/fog-1200.jpg");
+}
+.rain {
+    background-image: url("/weather_web/optimizedImages/rain-1500.jpg");
+}
+.snow {
+    background-image: url("/weather_web/optimizedImages/snow-1200.jpg");
 }
 
 }

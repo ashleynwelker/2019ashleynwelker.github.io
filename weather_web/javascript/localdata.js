@@ -1,5 +1,5 @@
 let pageNav = document.getElementById('page-nav');
-let statusContainer = document.getElemenyById('status');
+let statusContainer = document.getElemenyById('status'); 
 let contentContainer = document.getElementById('main-content');
 
 pageNav.addEventListener('click', function(evt){

@@ -5,6 +5,16 @@ let speed = 5;
 let direction = "SW";
 let elevationInMeters = 1514.246;
 
+//Write the getCondition function
+function getCondition() {
+
+}
+
+// Write the changeSummaryImage
+function changeSummaryImage() {
+    
+}
+
 // Calculate the Wind Chill
 function buildWC(speed, temp) {
 

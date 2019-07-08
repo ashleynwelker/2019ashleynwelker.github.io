@@ -1,3 +1,5 @@
+/* General */
+
 img {
     max-width: 100%;
 }
@@ -10,3 +12,5 @@ picture {
 section {
     max-width: 100%;
 }
+
+/* Mobile */

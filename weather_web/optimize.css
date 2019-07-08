@@ -14,9 +14,19 @@ section {
 }
 
 /* Mobile */
+.large-image-text {
+    display: none;
+}
+
 
 /* Large Screens */
 
-@media screen and (min-width: 410px) {
-    
+@media screen and (min-width: 450px) {
+    .large-image-text {
+        display: initial;
+    }
+    .small-image-text {
+        display: none;
+    }
+
 }

@@ -5,14 +5,47 @@ let speed = 5;
 let direction = "SW";
 let elevationInMeters = 1514.246;
 
-//Write the getCondition function
-function getCondition() {
-
+// Write a function to get the specific condition of the weather 
+function getCondition(weather) {
+    if (weather.includes("cloud") || weather.includes("overcast")) {
+        return "cloudy";
+    }
+    else if (weather.includes("sunny") || weather.includes("clear") || weather.includes("fair")) {
+        return "clear";
+    }
+    else if (weather.includes("wet") || weather.includes("rain") || weather.includes("stormy") 
+    || weather.includes("drizzly")) {
+        return "rain";
+    }
+    else if (weather.includes("foggy") || weather.includes("murky") || weather.includes("smoggy")) {
+        return "fog";
+    }
+    else if (weather.includes("frosty") || weather.includes("snowy")) {
+        return "snow";
+    }
+    else;
 }
 
-// Write the changeSummaryImage
-function changeSummaryImage() {
-    
+// Write a function that will change the image depending on the weather 
+function changeSummaryImage(curWeather) {
+    let backgroundImage = document.getElemenyById("currentWeather");
+    switch(curWeather) {
+        case "cloudy":
+            backgroundImage.setAttribute("class", "clouds");
+            break;
+        case "clear":
+            backgroundImage.setAttribute("class", "clear");
+            break;
+        case "rain":
+            backgroundImage.setAttribute("class", "rain");
+            break;
+        case "fog":
+            backgroundImage.setAttribute("class", "fog");
+            break;
+        case "snow":
+            backgroundImage.setAttribute("class", "snow");
+            break;
+    }
 }
 
 // Calculate the Wind Chill

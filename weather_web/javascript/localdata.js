@@ -1,5 +1,6 @@
 "use strict"
 
+fetchData(weatherURL);
 
 let pageNav = document.getElementById('page-nav');
 let statusContainer = document.getElemenyById('status'); 

@@ -23,7 +23,7 @@ function fetchData(weatherURL) {
     // Shorten the variable and focus only on the data we want to reduce typing.
     let g = data[cityName];
 
-    // **************** Get the content *************
+    // ************************* Get the content ***************************
 
     // Get the location data
     let locName = g.City;
@@ -45,7 +45,7 @@ function fetchData(weatherURL) {
 
     // Get the hourly data
 
-    // ****************** Display the content *********
+    // ************************ Display the content ************************
     // Set the title with the location name at the first
     // Gets the title element so it can be worked with
     let pageTitle = document.getElementById('page-title');

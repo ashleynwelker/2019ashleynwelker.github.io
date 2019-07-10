@@ -27,6 +27,8 @@ function getCondition(weather) {
     }
     else;
 }
+let weather = "crystal clear";
+let weatherRightNow = getCondition(weather);
 
 // Write a function that will change the image depending on the weather information retrieved 
 function changeSummaryImage(curWeather) {
@@ -52,6 +54,9 @@ function changeSummaryImage(curWeather) {
             break;
     }
 }
+
+changeSummaryImage(weatherRightNow);
+
 
 // Calculate the Wind Chill
 function buildWC(speed, temp) {

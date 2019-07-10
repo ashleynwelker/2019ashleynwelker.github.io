@@ -1,12 +1,11 @@
 "use strict"
 
-fetchData(weatherURL);
-
 let pageNav = document.getElementById('page-nav');
 let statusContainer = document.getElementById('status'); 
 let contentContainer = document.getElementById('main-content');
 
-let weatherURL = "path/to/weather.json";
+let weatherURL = "https://ashleynwelker.github.io/weather_web/javascript/weather.json";
+fetchData(weatherURL);
 function fetchData(weatherURL) {
   let cityName = 'Greenville'; // The data we want from the weather.json file
   fetch(weatherURL)
@@ -28,8 +27,10 @@ function fetchData(weatherURL) {
     // Get the location data
     let locName = g.City;
     let locState = g.State;
+
     // Put them together
     let fullName = locName + ', ' + locState;
+
     // See if it worked
     console.log('fullName is: ' + fullName);
 
@@ -83,10 +84,10 @@ function fetchData(weatherURL) {
   })
 }
 
-pageNav.addEventListener('click', function(evt){
+// pageNav.addEventListener('click', function(evt){
 
     // Get the city name
-let cityName = evt.target.innerHTML;
+/* let cityName = evt.target.innerHTML;
 switch (cityName) {
  case "Franklin":
   case "Greenville":
@@ -94,11 +95,4 @@ switch (cityName) {
     evt.preventDefault();
   break;
 }
-}
-
-
-
-
-
-
-
+} */

@@ -152,4 +152,3 @@ console.log(`converted elevation from ${elevationInMeters} to ${elevationInFeet}
 
 // Inject value into the HTML
 document.getElementById("elevation").innerHTML = elevationInFeet + " ft. |";
-

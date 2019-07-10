@@ -30,6 +30,7 @@ function getCondition(weather) {
 
 // Write a function that will change the image depending on the weather information retrieved 
 function changeSummaryImage(curWeather) {
+    console.log(curWeather);
     // backgroundImage is a variable that holds the value retrieved from the HTML
     let backgroundImage = document.getElementById("currentWeather");
     // This switch statement will go through and display the correct image based on the information

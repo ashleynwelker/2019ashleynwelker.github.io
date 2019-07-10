@@ -3,7 +3,7 @@
 fetchData(weatherURL);
 
 let pageNav = document.getElementById('page-nav');
-let statusContainer = document.getElemenyById('status'); 
+let statusContainer = document.getElementById('status'); 
 let contentContainer = document.getElementById('main-content');
 
 let weatherURL = "path/to/weather.json";
@@ -33,22 +33,26 @@ function fetchData(weatherURL) {
     // See if it worked
     console.log('fullName is: ' + fullName);
 
-    //Get the temperatuare data
+    // Get the temperatuare data
+      let locTemp = g.Temp;
+      console.log(locTemp);
 
     // Get the wind data
+      let wind = g.Wind;
+      console.log(wind);
 
     // Get the current conditions
 
     // Get the hourly data
 
-    // ****************** Display teh content *********
+    // ****************** Display the content *********
     // Set the title with the location name at the first
     // Gets the title element so it can be worked with
     let pageTitle = document.getElementById('page-title');
     // Create a text node containing the full name
     let fullNameNode = document.createTextNode(fullName);
     // Inserts the fullName value before any other content that might exist
-    pageTitle.insertBefore(fullNameNote, page.Title.childNodes[0]);
+    pageTitle.insertBefore(fullNameNode, page.Title.childNodes[0]);
     // When this is done, the title should look something like this:
     // Greenville, SC | The Weather Site
 
@@ -59,8 +63,11 @@ function fetchData(weatherURL) {
     // The h1 in main h1 should now say "Greenville, SC"
 
     // Set the temperature information
+    document.getElementById('').innerHTML = locTemp;
 
     // Set the wind information
+      document.getElementById('').innerHTML = wind;
+      buildWC(wind,locTemp);
 
     // Set the current conditions information
 
@@ -86,24 +93,9 @@ switch (cityName) {
    case "Springfield":
     evt.preventDefault();
   break;
-
+}
 }
 
-}
-// Get the temperature data
-let locTemp = g.Temp;
-console.log(locTemp);
-
-// Get the wind data
-let wind = g.Wind;
-console.log(wind);
-
-// Set the temperature information
-document.getElementById('').innerHTML = locTemp;
-
-// Set the wind information
-document.getElementById('').innerHTML = wind;
-buildWC(wind,locTemp);
 
 
 

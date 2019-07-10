@@ -1,13 +1,71 @@
 <!DOCTYPE HTML>
-<html lang="en-us">
+<html lang="en-us"> 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="The weather for Greenville, South Carolina">
-        <title>Greenville, South Carolina Weather Website</title> 
-        <link rel="stylesheet" href="./css/screen.css">
+        <title id="page-title">Greenville, South Carolina Weather Website</title>
+        <link rel="stylesheet" href="./css/screen.css" media="screen">
     </head>
     <body>
-        
+        <header id="page-header">
+            <img id="logo" src="plan-images/plan-images/plan-images/logo.jpeg" alt="umbrella-logo">
+            <p id="main-title"><strong>The Weather Site</strong></p>
+        </header>
+        <nav id="navBar">
+             <ul>
+                 <li><a href="index.html">Current</a></li>
+                 <li><a href="">Search</a></li>
+                 <li><a href="franklin_weather_plan.html"></a>Franklin</li>
+                 <li><a href="greenville.html"></a>Greenville</li>
+             </ul>               
+        </nav>
+        <main id="main-content">
+            <section id="status">Please be patient while I get your weather information.</section>
+            <section id="section-1">
+                <h1 id="localName">Franklin, Idaho</h1>
+                <div id="localInfo">
+                    <ul>
+                            <li><strong class="location-info">Zip: </strong>83237 | </li> 
+                            <li><strong class="location-info">Elevation: </strong><span id="elevation">1514.246 </span>m | </li>
+                            <li><strong class="location-info">Location: </strong>42.07, 111.79</li>
+                    </ul>
+                </div>
+            </section>
+            <div id="currentWeather" class="clear">
+                <section id="temperature" class="tile">
+                    <h2 class="title">Temperature</h2>
+                    <p id="currentTemperature"><span id="curTemp">24</span> &deg;F</p>
+                    <div id="highnlow">
+                        <p id="highTemperature">High: <span id="highTemp">34</span> &deg;F</p>
+                        <p id="lowTemperature">Low: <span id="lowTemp">21</span> &deg;F</p>
+                    </div>
+                    <p id="feelTemp">Feels like: </p>
+                </section>
+                <section id="wind" class="tile">
+                    <h2 class="title">Wind</h2>
+                            <div id="dial" class="wind"></div>
+                            <p id="windSpeed">2 mph</p>
+                            <p id="direction"><strong>Direction: </strong>SW</p>
+                            <p id="gust"><strong>Gusts: </strong>5mph</p>
+                </section>
+                <section id="summary" class="tile">
+                    <h2 class="title">Clear</h2>
+                    <img id="weather-picture" src="weather-site-images/weather-site-images/images/clear.jpg" alt="Clear image">
+                </section>
+            </div>
+            <section id="hourly" class="tile">
+                <h2 class="title">Hourly Forecast</h2>
+                <p><strong>Hourly Forecast</strong></p>
+                <ul id="templist">
+                    <li>10 am: 41 F | 11 am: 41 F | 12 pm: 41 F | 1 pm: 41 F | 2 pm: 41 F | 3 pm: 41 F | 4 pm: 42 F | 
+                    5 pm: 44 F | 6 pm: 44 F | 7 pm: 46 F | 8 pm: 49 F | 9 pm: 51 F | 10 pm: 55 F | </li>
+                </ul>
+            </section>
+        </main>
+        <footer id="footer">
+        <p>&copy; 2019 - The Weather Site</p>
+        </footer>
+        <script src="./javascript/functions.js"></script>
     </body>
-</html>
+</html> 

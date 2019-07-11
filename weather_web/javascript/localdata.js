@@ -43,8 +43,12 @@ function fetchData(weatherURL) {
       console.log(wind);
 
     // Get the current conditions
+      let condition = g.Summary;
+      console.log(condition);
 
     // Get the hourly data
+      let hourly = g.Hourly;
+      console.log(hourly);
 
     // ************************ Display the content ************************
     // Set the title with the location name at the first
@@ -64,15 +68,18 @@ function fetchData(weatherURL) {
     // The h1 in main h1 should now say "Greenville, SC"
 
     // Set the temperature information
-    document.getElementById('').innerHTML = locTemp;
+    document.getElementById('curTemp').innerHTML = locTemp;
 
     // Set the wind information
-      document.getElementById('').innerHTML = wind;
+      document.getElementById('windSpeed').innerHTML = wind + "mph";
       buildWC(wind,locTemp);
 
     // Set the current conditions information
+      document.getElementById('summaryTitle').innerHTML = condition;
 
-    // Set the hourly temerature information
+    // Set the hourly temperature information
+      let current_hour = buildHourlyData(nextHour, hourly);
+      document.getElementById().innerHTML = hourly;
 
     // Change the status of the containers
     contentContainer.setAttribute('class', ''); // Removes the hide class

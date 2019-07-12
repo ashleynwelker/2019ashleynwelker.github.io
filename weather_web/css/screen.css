@@ -47,7 +47,7 @@ footer {
 
 #logo {
     float: left;
-    width: 50px;
+    width: 70px;
     height: 100%;
     vertical-align: middle;
 }
@@ -56,6 +56,7 @@ footer {
     display: inline-block;
     background-color: #0e89d5;
     text-align: center;
+    height: 70px;
 }
 
 #localInfo ul {
@@ -134,6 +135,7 @@ li {
 
 #location-info {
     font-size: 110%;
+    font-weight: 1000px;
 }
 #dial {
     height: 150px;
@@ -170,6 +172,16 @@ li {
 
 #currentWeather {
     background-size: cover;
+}
+
+#section-1 {
+    height: 90px;
+}
+
+h1 {
+    height: 30px;
+    align-content: center;
+    margin-top: 5px;
 }
 
 /* Mobile */
@@ -232,6 +244,8 @@ li {
 #navBar {
     position: initial;
     margin: 0px;
+    height: 50px;
+    text-align: center;
 }
 
 #navBar ul {
@@ -242,10 +256,15 @@ li {
     width: 100%;
 }
 
-nav ul li {
+nav ul li a {
     display: inline-block;
     margin-right: 220px;
     color: white;
+    text-decoration: none;
+}
+
+div ul li {
+    font-size: 20px;
 }
 
 }

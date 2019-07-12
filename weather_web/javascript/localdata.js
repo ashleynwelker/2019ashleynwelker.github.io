@@ -46,9 +46,19 @@ function fetchData(weatherURL) {
       let condition = g.Summary;
       console.log(condition);
 
+      let weatherPicture = getCondition(condition);
+      changeSummaryImage(weatherPicture);
+      
+
     // Get the hourly data
       let hourly = g.Hourly;
       console.log(hourly);
+
+    // Get the wind direction
+      let windDirection = g.Direction;
+      console.log(windDirection);
+
+      windDial(windDirection);
 
     // ************************ Display the content ************************
     // Set the title with the location name at the first

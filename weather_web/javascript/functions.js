@@ -1,8 +1,8 @@
 // Weather Site Javascript Functions
 // Variables for Function Used
-let temp = 31;
+let temp = 31; 
 let speed = 5;
-let direction = "SW";
+let direction = "SW"; 
 let elevationInMeters = 1514.246;
 
 // Write a function to get the specific condition of the weather 

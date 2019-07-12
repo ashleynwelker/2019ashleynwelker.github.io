@@ -1,11 +1,11 @@
 "use strict"
 
-let pageNav = document.getElementById('page-nav');
+let pageNav = document.getElementById('page-nav'); 
 let statusContainer = document.getElementById('status'); 
 let contentContainer = document.getElementById('main-content');
 
 let weatherURL = "https://ashleynwelker.github.io/weather_web/javascript/weather.json";
-fetchData(weatherURL);
+fetchData(weatherURL); 
 function fetchData(weatherURL) {
   let cityName = 'Greenville'; // The data we want from the weather.json file
   fetch(weatherURL)

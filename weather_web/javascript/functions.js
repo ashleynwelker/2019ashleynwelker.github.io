@@ -15,7 +15,7 @@ function getCondition(weather) {
     else if (weather.includes("sunny") || weather.includes("clear") || weather.includes("fair")) {
         return "clear";
     }
-    else if (weather.includes("wet") || weather.includes("rain") || weather.includes("stormy") 
+    else if (weather.includes("wet") || weather.includes("rain") || weather.includes("storm") 
     || weather.includes("drizzly")) {
         return "rain";
     }
@@ -35,22 +35,28 @@ function changeSummaryImage(curWeather) {
     console.log(curWeather);
     // backgroundImage is a variable that holds the value retrieved from the HTML
     let backgroundImage = document.getElementById("currentWeather");
+    let frontImage = document.getElementById("weather-picture");
     // This switch statement will go through and display the correct image based on the information
     switch(curWeather) {
         case "cloudy":
             backgroundImage.setAttribute("class", "clouds");
+            frontImage.setAttribute("class", "clouds")
             break;
         case "clear":
             backgroundImage.setAttribute("class", "clear");
+            frontImage.setAttribute("class", "clear");
             break;
         case "rain":
             backgroundImage.setAttribute("class", "rain");
+            frontImage.setAttribute("class", "rain");
             break;
         case "fog":
             backgroundImage.setAttribute("class", "fog");
+            frontImage.setAttribute("class", "fog");
             break;
         case "snow":
             backgroundImage.setAttribute("class", "snow");
+            frontImage.setAttribute("class", "snow");
             break;
     }
 }

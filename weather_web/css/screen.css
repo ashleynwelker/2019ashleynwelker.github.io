@@ -242,6 +242,12 @@ li {
     width: 100%;
 }
 
+nav ul li {
+    display: inline-block;
+    margin-right: 220px;
+    color: white;
+}
+
 }
 
 .hide {

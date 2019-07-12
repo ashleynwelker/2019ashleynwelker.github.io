@@ -229,6 +229,19 @@ li {
     background-image: url("/weather_web/optimizedImages/snow-1200.jpg");
 }
 
+#navBar {
+    position: initial;
+    margin: 0px;
+}
+
+#navBar ul {
+    margin: 0px;
+}
+
+.box-tile {
+    width: 100%;
+}
+
 }
 
 .hide {

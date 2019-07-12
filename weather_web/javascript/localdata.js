@@ -60,6 +60,12 @@ function fetchData(weatherURL) {
 
       windDial(windDirection);
 
+    // Get the elevation
+      let elevation = g.Elevation;
+      console.log(elevation);
+
+    let lowElevation = convertMeters(elevation);
+
     // ************************ Display the content ************************
     // Set the title with the location name at the first
     // Gets the title element so it can be worked with
@@ -76,6 +82,7 @@ function fetchData(weatherURL) {
     let contentHeading = document.getElementById('localName');
     contentHeading.innerHTML = fullName; 
     // The h1 in main h1 should now say "Greenville, SC"
+    document.getElementById("elevation").innerHTML = lowElevation;
 
     // Set the temperature information
     document.getElementById('curTemp').innerHTML = locTemp;

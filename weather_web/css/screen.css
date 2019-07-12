@@ -122,6 +122,7 @@ li {
 #weather-picture {
     width: 250px;
     height: 250px;
+    margin: 0 auto;
 }
 #temperature {
     width: 100%;
@@ -136,7 +137,7 @@ li {
 
 #location-info {
     font-size: 110%;
-    font-weight: 900px;
+    font-weight: bolder;
 }
 #dial {
     height: 150px;

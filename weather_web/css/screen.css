@@ -90,6 +90,7 @@ li {
 #templist {
     overflow: auto;
     white-space: nowrap;
+    display: flex; 
 }
 
 #highTemperature {

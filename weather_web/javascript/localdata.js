@@ -57,14 +57,14 @@ function fetchData(weatherURL) {
     // Create a text node containing the full name
     let fullNameNode = document.createTextNode(fullName);
     // Inserts the fullName value before any other content that might exist
-    pageTitle.insertBefore(fullNameNode, page.Title.childNodes[0]);
+    pageTitle.insertBefore(fullNameNode, pageTitle.childNodes[0]);
     // When this is done, the title should look something like this:
     // Greenville, SC | The Weather Site
 
     // Set the Location information
     // Get the h1 to display the city location
-    let contentHeading = document.getElementById('contentHeading');
-    contentHeading.innerHTML = fullName;
+    let contentHeading = document.getElementById('localName');
+    contentHeading.innerHTML = fullName; 
     // The h1 in main h1 should now say "Greenville, SC"
 
     // Set the temperature information
@@ -79,7 +79,7 @@ function fetchData(weatherURL) {
 
     // Set the hourly temperature information
       let current_hour = buildHourlyData(nextHour, hourly);
-      document.getElementById().innerHTML = current_hour;
+      document.getElementById("templist").innerHTML = current_hour;
 
     // Change the status of the containers
     contentContainer.setAttribute('class', ''); // Removes the hide class

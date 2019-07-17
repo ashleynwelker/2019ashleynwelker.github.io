@@ -9,8 +9,12 @@
 /* 1. Imports */
 
 /* 2. General */
+* {
+    background-image: url("acme/images/background.jpg");
+}
 #navBar {
     background-color: red;
+    text-decoration: none;
 }
 
 nav ul {

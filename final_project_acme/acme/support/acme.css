@@ -1,0 +1,22 @@
+/* Table of Contents */
+/* 
+1. Imports
+2. General
+3. Mobile
+4. Large(r) Screens
+*/
+
+/* 1. Imports */
+
+/* 2. General */
+#navBar {
+    background-color: red;
+}
+
+nav ul {
+    display: inline;
+}
+
+/* 3. Mobile */
+
+/* 4. Large(r) Screens */

@@ -313,6 +313,8 @@ function getWeather(stationId) {
         storage.setItem("summaryWeather", data.properties.textDescription);
         storage.setItem("maxTemp", data.properties.maxTemperatureLast24Hours.value);
         storage.setItem("minTemp", data.properties.minTemperatureLast24Hours.value);
+        storage.setItem("city", data.context.geometry.city);
+        storage.setItem("state", data.context.geometry.state);
 
         // Build the page for viewing
 

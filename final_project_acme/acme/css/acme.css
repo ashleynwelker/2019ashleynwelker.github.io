@@ -7,63 +7,14 @@
 */
 
 /* 1. Imports */
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
 
 /* 2. General */
-body {
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-}
-
-body {
-    background-image: url("../images/site/background.jpg");
-}
-
-#navBar {
-    width: 108%;
-    padding-bottom: 0;
-    margin-left: 0px;
-}
-
-nav ul li {
-    float: left;
-    padding-right: 2%;
-    padding-left: 2%;
-    background-color: #DE2226;
-    height: 40px;
-    font-size: 30px;
-    color: #fff; 
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-#content-section {
-    background-color: white;
+#bunny_rocket {
     align-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
 }
 
-#welcome {
-    clear: left;
-}
 
-#footer-text {
-    text-align: center;
-}
-
-h1 {
-    font-size: 250%;
-}
-
-#extra-padding {
-    padding-right: 41%;
-}
-
-#negative-padding {
-    margin-left: -40px;
-}
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */

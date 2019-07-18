@@ -9,20 +9,31 @@
 /* 1. Imports */
 
 /* 2. General */
-* {
-    background-image: url("acme/images/background.jpg");
+body {
+    background-image: url("../images/site/background.jpg");
 }
 
 #navBar {
+    width: 100%;
+    /* background-color: #DA212A; */
+}
+
+nav ul li {
+    float: left;
+    padding-right: ;
     background-color: #DA212A;
-    text-decoration: none;
 }
 
 nav ul {
-    display: inline-block;
-    text-decoration: none;
+    list-style-type: none;
 }
 
+#content-section {
+    background-color: white;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */

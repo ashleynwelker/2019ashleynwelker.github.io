@@ -14,7 +14,28 @@
     width: 100%;
 }
 
-
+#hero-text {
+    position: absolute;
+    top: 430px;
+    right: 290px;
+    font: 4em;
+}
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */
+
+@media screen and (min-width: 450px) {
+
+#section-3 {
+    width: 50%;
+    float: left;
+    align-content: flex-start;
+}
+
+#section-4 {
+    width: 50%;
+    float: right;
+    align-content: flex-end;
+}
+
+}

@@ -51,6 +51,7 @@ nav ul {
 
 #footer-text {
     text-align: center;
+    clear: left;
 }
 
 h1 {
@@ -64,6 +65,7 @@ h1 {
 #negative-padding {
     margin-left: -40px;
 }
+
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */

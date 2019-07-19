@@ -16,11 +16,12 @@
 
 #hero-text {
     position: absolute;
-    top: 430px;
-    right: 290px;
-    font: 4em;
+    top: 130px;
+    right: 12%;
+    font-size: 50%;
     list-style-type: none;
     color: #903;
+    width: 40%;
 }
 
 #second-title {
@@ -60,28 +61,6 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
 }
-/* 3. Mobile */
-
-/* 4. Large(r) Screens */
-
-@media screen and (min-width: 450px) {
-
-.left-section {
-    width: 50%;
-    float: left;
-    /* align-content: flex-start; */
-}
-
-/* #section-4 {
-    width: 50%;
-    float: right;
-    /* align-content: flex-end; */
-/* } */ 
-
-.parent-section {
-    float: left;
-    width: 100%;
-}
 
 #half-way {
     float: left;
@@ -91,6 +70,30 @@ h1 {
 #there {
     float: right;
     width: 50%;
+}
+/* 3. Mobile */
+
+/* 4. Large(r) Screens */
+
+@media screen and (min-width: 450px) {
+
+.left-section {
+    width: 50%;
+    float: left;
+}
+
+.parent-section {
+    float: left;
+    width: 100%;
+}
+
+#hero-text {
+    position: absolute;
+    top: 430px;
+    right: 290px;
+    font: 4em;
+    list-style-type: none;
+    color: #903;
 }
 
 }

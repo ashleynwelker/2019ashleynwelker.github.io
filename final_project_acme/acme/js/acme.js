@@ -18,7 +18,7 @@ function fetchData(acmeURL) {
         document.getElementById("description").innerHTML = info;
 
         let name = data[key].name;
-        document.getElementById("name").innerHTML = name;
+        document.getElementById("welcome").innerHTML = name;
 
         let image = data[key].path;
         document.getElementById("image").setAttribute("src", image);

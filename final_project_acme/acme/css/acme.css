@@ -16,20 +16,24 @@
 
 #hero-text {
     position: absolute;
-    top: 130px;
-    right: 12%;
-    font-size: 50%;
+    top: 23%;
+    right: -5%;
+    left: 50%;
+    font-size: 60%;
     list-style-type: none;
     color: #903;
-    width: 35%;
+    width: 50%;
+}
+
+#actionbtn {
+    width: 40%;
+    position: absolute;
+    right: 45%;
+    padding-top: 2%; 
 }
 
 #second-title {
     font-size: 2em;
-}
-
-.items {
-    font-size: 25px;
 }
 
 #bottomBorder {
@@ -71,6 +75,10 @@ h1 {
     float: right;
     width: 50%;
 }
+
+a {
+    text-decoration: none;
+}
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */
@@ -94,6 +102,10 @@ h1 {
     font: 4em;
     list-style-type: none;
     color: #903;
+}
+
+.items {
+    font-size: 25px;
 }
 
 }

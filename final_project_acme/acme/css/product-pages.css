@@ -13,6 +13,13 @@
     width: 30%;
 }
 
+main {
+    padding-left: 3%;
+}
+
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */
+@media screen and (min-width: 450px) {
+    
+}

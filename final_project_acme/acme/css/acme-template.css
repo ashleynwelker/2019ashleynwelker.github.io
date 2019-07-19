@@ -22,7 +22,8 @@ nav ul li {
     padding-right: 2%;
     padding-left: 2%;
     background-color: #DE2226;
-    color: #fff; 
+    color: #fff;
+    float: left; 
 }
 
 nav ul {
@@ -48,30 +49,38 @@ nav ul {
 li a {
     text-decoration: none;
     color: #fff;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-/* 3. Mobile */
-
-
-/* 4. Large(r) Screens */
 #navBar {
     width: 108%;
     padding-bottom: 0;
     margin-left: 0px;
 }
 
+#negative-padding {
+    margin-left: -13.3%;
+}
+
+#extra-padding {
+    padding-right: 18%;
+}
+
+
+
+/* 3. Mobile */
+
+/* 4. Large(r) Screens */
+@media screen and (min-width: 450px) {
+
 nav ul li {
-    float: left;
     font-size: 30px;
     height: 40px;
 }
 
 h1 {
     font-size: 250%;
-}
-
-#extra-padding {
-    padding-right: 41%;
 }
 
 #negative-padding {
@@ -81,4 +90,9 @@ h1 {
 header {
     display: inline-block;
     text-align: left;
+}
+
+#extra-padding {
+    padding-right: 40.5%;
+}
 }

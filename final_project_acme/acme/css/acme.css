@@ -55,6 +55,11 @@ section img {
 #section-3 {
     padding-left: 5%;
 }
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */

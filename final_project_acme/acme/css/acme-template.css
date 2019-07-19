@@ -18,19 +18,10 @@ body {
     background-image: url("../images/site/background.jpg");
 }
 
-#navBar {
-    width: 108%;
-    padding-bottom: 0;
-    margin-left: 0px;
-}
-
 nav ul li {
-    float: left;
     padding-right: 2%;
     padding-left: 2%;
     background-color: #DE2226;
-    height: 40px;
-    font-size: 30px;
     color: #fff; 
 }
 
@@ -54,6 +45,27 @@ nav ul {
     clear: left;
 }
 
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 3. Mobile */
+
+
+/* 4. Large(r) Screens */
+#navBar {
+    width: 108%;
+    padding-bottom: 0;
+    margin-left: 0px;
+}
+
+nav ul li {
+    float: left;
+    font-size: 30px;
+    height: 40px;
+}
+
 h1 {
     font-size: 250%;
 }
@@ -66,20 +78,7 @@ h1 {
     margin-left: -40px;
 }
 
-li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#logo {
-    width: 80%;
-    display: flex;  
-}
-
 header {
     display: inline-block;
     text-align: left;
 }
-/* 3. Mobile */
-
-/* 4. Large(r) Screens */

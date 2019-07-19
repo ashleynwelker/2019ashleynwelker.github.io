@@ -6,11 +6,11 @@
       "manufacturer": "Anvil Forge",
       "price": "50.00",
       "reviews": "4.5"
-    },
+    }, 
     "Explosives":{
       "name": "TNT",
       "path": "/acme-project/images/products/tnt.png",
-      "description": "The Noblel brand TNT is famous for its power and ability to get the job done. Buried or thrown it is guaranteed to blow up and defeather roadrunners all in one fell swoop.",
+      "description": "The Noble brand TNT is famous for its power and ability to get the job done. Buried or thrown it is guaranteed to blow up and defeather roadrunners all in one fell swoop.",
       "manufacturer": "Alfred Nobel",
       "price": "10.00",
       "reviews": "5"

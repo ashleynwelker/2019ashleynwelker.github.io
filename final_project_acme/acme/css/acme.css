@@ -19,6 +19,25 @@
     top: 430px;
     right: 290px;
     font: 4em;
+    list-style-type: none;
+    color: #903;
+}
+
+#second-title {
+    font-size: 2em;
+}
+
+.items {
+    font-size: 25px;
+}
+
+#bottomBorder {
+    height: 2px;
+    color: #000;
+    display: block;
+    clear: left;
+    margin-top: 50px;
+    border-style: solid;
 }
 /* 3. Mobile */
 

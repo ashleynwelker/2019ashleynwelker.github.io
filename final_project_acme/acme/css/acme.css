@@ -40,13 +40,20 @@
     border-style: solid;
 }
 
-span {
+section.gray-box {
     background-color: #808080;
-    width: 20%;
+    width: 50%;
 }
 
-span img {
+section img {
     width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-3 {
+    padding-left: 5%;
 }
 /* 3. Mobile */
 
@@ -54,16 +61,31 @@ span img {
 
 @media screen and (min-width: 450px) {
 
-#section-3 {
+.left-section {
     width: 50%;
     float: left;
-    align-content: flex-start;
+    /* align-content: flex-start; */
 }
 
-#section-4 {
+/* #section-4 {
     width: 50%;
     float: right;
-    align-content: flex-end;
+    /* align-content: flex-end; */
+/* } */ 
+
+.parent-section {
+    float: left;
+    width: 100%;
+}
+
+#half-way {
+    float: left;
+    width: 50%;
+}
+
+#there {
+    float: right;
+    width: 50%;
 }
 
 }

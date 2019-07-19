@@ -71,6 +71,15 @@ li a {
     color: #fff;
 }
 
+#logo {
+    width: 80%;
+    display: flex;  
+}
+
+header {
+    display: inline-block;
+    text-align: left;
+}
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */

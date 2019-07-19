@@ -12,24 +12,24 @@ function fetchData(acmeURL) {
     .then(function(data) {
         // Check the data object that was retrieved
         console.log(data);
-        let key = document.getElementById("description").value;
+        let key = document.getElementById("hidden").value;
 
         let info = data[key].description;
         document.getElementById("description").innerHTML = info;
 
-        let name = data[key].description;
+        let name = data[key].name;
         document.getElementById("name").innerHTML = name;
 
-        let image = data[key].description;
+        let image = data[key].path;
         document.getElementById("image").setAttribute("src", image);
 
-        let maker = data[key].description;
+        let maker = data[key].manufacturer;
         document.getElementById("maker").innerHTML = maker;
 
-        let review = data[key].description;
+        let review = data[key].reviews;
         document.getElementById("review").innerHTML = review;
 
-        let price = data[key].description;
+        let price = data[key].price;
         document.getElementById("price").innerHTML = price;
         
     });

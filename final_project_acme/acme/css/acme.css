@@ -39,6 +39,15 @@
     margin-top: 50px;
     border-style: solid;
 }
+
+span {
+    background-color: #808080;
+    width: 20%;
+}
+
+span img {
+    width: 75%;
+}
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */

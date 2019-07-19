@@ -66,6 +66,11 @@ h1 {
     margin-left: -40px;
 }
 
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* 3. Mobile */
 
 /* 4. Large(r) Screens */

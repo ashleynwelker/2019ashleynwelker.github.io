@@ -90,14 +90,14 @@ a {
     float: left;
 }
 
-.parent-section {
-    float: left;
-    width: 100%;
+.section-4 {
+    float: right;
+    width: 50%;
 }
 
 #hero-text {
     position: absolute;
-    top: 430px;
+    top: 270px;
     right: 290px;
     font: 4em;
     list-style-type: none;
@@ -106,6 +106,16 @@ a {
 
 .items {
     font-size: 25px;
+}
+
+#actionbtn {
+    width: 30%;
+    position: absolute;
+    right: 64%;
+}
+
+#second-title {
+    font-size: 5em;
 }
 
 }
